@@ -1,0 +1,44 @@
+<html>
+    
+   <head>
+      <link href='style/css/styleRegister.css' rel='stylesheet' type='text/css'/>
+    <meta charset="utf-8" />
+    <link rel="icon" href="style/logo/logo.png" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+	
+	<script src='js/js-validation/register-validation.js'></script>
+    
+    <title>GalleryOn: Register</title>
+   </head>
+	
+	<body>
+	
+	<div class='logo'>
+	     <img border='#' alt='GalleryOnLogo' src='style/logo/GalleryOnLogo.png' width='450' height='150'>
+	</div>
+	
+	<div id='registerArea'>
+	   <form name='registerForm' action='php-oop/register.php' method='post' onsubmit='return validateForm()'>
+	      <div id='registerLbl'><label>Register:</label></div>
+	      <input type='text' id='firstNameTxtFld' name='firstNameTxtFld' placeholder='First Name*'></input>
+	      <input type='text' id='secondNameTxtFld' name='secondNameTxtFld' placeholder='Second Name(Optional)'></input>
+	      <input type='text' id='lastNameTxtFld' name='lastNameTxtFld' placeholder='Last Name*'></input>
+		  <input type='text' id='emailTxtFld' name='emailTxtFld' placeholder='Email*'></input>
+		  <input type='text' id='phoneNoTxtFld' name='phoneNoTxtFld' placeholder='Phone Number(Optional)'></input>
+		  <input type='text' id='usernameTxtFld' name='usernameTxtFld' placeholder='Username*'></input>
+		  <input type='password' id='pwd' name='pwd' placeholder='Password*'></input>
+		  <input type='password' id='repeatPwd' name='repeatPwd' placeholder='Repeat Password*'></input>
+		  
+		  
+		  <input type='checkbox' id='regTermsAndCondCheckBox' name='regTermsAndCondCheckBox' onchange="ValidateCheckbox('checkbox')" required></input>
+		  <label id='regAgreementLbl' name='regAgreementLbl'>Agree with GalleryOn terms and conditions</label>
+		  
+		  <button type='submit' id='registerBtn' name='registerBtn' onClick="validateForm(this.form)">Register</button>
+		</form>
+		  <a href='login.html' style='text-decoration:none' id='loginLink' name='loginLink'>Already have an Account?</a>
+		  
+	</div>
+
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+  <head>
+     <link href='style/css/pwdRecovery.css' rel='stylesheet' type='text/css'>
+	 <meta charset='utf-8'/>
+	 <link rel='icon' href='style/logo/logo.png'/>
+	 <meta name='viewport' content='width=device-width, initial-scale=1'/>
+	 <meta name='theme-color' content='#000000'/>
+	 <title>GalleryOn: Password Reset</title>
+	 <script src='js/js-validation/pwd-recovery-validation.js'></script>
+  </head>
+    <body>
+	
+	   <div class='logo'>
+	     <img border='#' alt='GalleryOnLogo' src='style/logo/GalleryOnLogo.png' width='450' height='150'>
+	   </div>
+	
+	   <div class='pwdRecoveryArea'>
+	     <form action='#' name='pwdRecoveryForm' method='post' onsubmit='return validateForm()'>
+	       <div id='pwdResetLbl'><label>Password Reset:</label></div>
+		   <input type='text' id='pwdResetEmailTxtFld' name='pwdResetEmailTxtFld' placeholder='Email'></input>
+		   <button type='submit' id='resetPwdBtn' name='resetPwdBtn' onClick='validateForm(this.form)'>Reset Password</button>
+		   </form>
+	   </div>
+	</body>
+</html>

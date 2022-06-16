@@ -1,0 +1,59 @@
+body{
+	background-color:#000000;
+	background-attachment:fixed;
+}
+#loginArea{
+	position:absolute;
+	right:100px;
+	top:100px;
+	background-color:red;
+	opacity:0.5;
+	height:450px;
+	width:550px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+}
+
+.logo{
+	position:absolute;
+	left:10px;
+	top:15px;
+}
+
+#loginLbl{
+	position:absolute;
+	left:15px;
+	top:10px;
+}
+
+#username{
+	position:absolute;
+	left:200px;
+	top:100px;
+}
+
+#password {
+	position:absolute;
+	left:200px;
+	top:150px;
+}
+
+#loginBtn{
+	position:absolute;
+	left:250px;
+	top:220px;
+}
+
+#pwdRecoveryLink{
+	position:absolute;
+	top:300px;
+	left:220px;
+}
+
+#registerLink{
+	position:absolute;
+	top:350px;
+	left:200px;
+}

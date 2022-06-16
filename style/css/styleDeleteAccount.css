@@ -1,0 +1,65 @@
+body{
+	background-color:#000000;
+	background-attachment:fixed;
+}
+
+.logo{
+	position:absolute;
+	top:10px;
+	left:15px;
+}
+
+.deleteAccArea{
+	position:absolute;
+	top:200px;
+	left:500px;
+	width:500px;
+	height:300px;
+	background-color:red;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+#deleteAccLbl{
+	position:absolute;
+	top:10px;
+	left:15px;
+}
+
+#delAccEmailUsrnameTxtFld{
+	position:absolute;
+	top:50px;
+	left:50px;
+}
+
+#delAccPwd{
+	position:absolute;
+	top:100px;
+	left:50px;
+}
+
+#delAccRepeatPwdConfirm {
+	position:absolute;
+	top:100px;
+	left:220px;
+}
+
+#delAccBtn {
+	position:absolute;
+	top:170px;
+	left:100px;
+}
+
+#delAccOrLbl{
+	position:absolute;
+	top:170px;
+	left:230px;
+}
+
+#delAccDeactivateBtn {
+	position:absolute;
+	top:170px;
+	left:260px;
+}

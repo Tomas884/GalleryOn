@@ -1,0 +1,17 @@
+body {
+	background-color:#000000;
+	background-attachment:fixed;
+}
+
+.themeSettingsArea {
+	position:absolute;
+	top:150px;
+	left:450px;
+	height:450px;
+	width:450px;
+	background-color:red;
+	border-top-right-radius:5px;
+	border-top-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+}

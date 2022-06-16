@@ -1,0 +1,65 @@
+body{
+	background-color:#000000;
+	background-attachment:fixed;
+}
+
+.logo{
+	position:absolute;
+	left:10px;
+	top:15px;
+}
+
+.pwdChangeArea{
+	position:absolute;
+	top:100px;
+	left:500px;
+	width:500px;
+	height:300px;
+	background-color:red;
+	border-top-right-radius:5px;
+	border-top-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+}
+
+#chngPwdLbl{
+	position:absolute;
+	top:10px;
+	left:15px;
+}
+
+#pwdChngEmailUsrTxtFld {
+	position:absolute;
+	top:80px;
+	left:170px;
+}
+
+#pwdChngOldPwdTxtFld {
+	position:absolute;
+	top:130px;
+	left:10px;
+}
+
+#pwdChngNewPwdTxtFld {
+	position:absolute;
+	top:130px;
+	left:170px;
+}
+
+#pwdChngRepeatNewPwdTxtFld {
+	position:absolute;
+	top:130px;
+	left:340px;
+}
+
+#changePwdBtn {
+	position:absolute;
+	top:190px;
+	left:180px;
+}
+
+#updAccDataLbl{
+	position:absolute;
+	top:240px;
+	left:160px;
+}

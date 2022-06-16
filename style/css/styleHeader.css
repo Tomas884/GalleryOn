@@ -1,0 +1,66 @@
+header{
+	width:1360px;
+	height:100px;
+	background-color:#666666;
+	position:absolute;
+	top:2px;
+	left:2px;
+	border-top-right-radius:5px;
+	border-top-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+}
+
+.logo{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+#aboutLink {
+	position:absolute;
+	top:35px;
+	left:400px;
+}
+
+#loginLink {
+	position:absolute;
+	left:600px;
+	top:35px;
+}
+
+#registerLink {
+	position:absolute;
+	top:35px;
+	left:800px;
+}
+
+#searchTxtFld {
+	position:absolute;
+	top:35px;
+	left:1000px;
+}
+
+#searchBtn {
+	position:absolute;
+	top:35px;
+	left:1160px;
+}
+
+#myGalleryLink {
+	position:absolute;
+	top:35px;
+	left:600px;
+}
+
+#signout {
+	position:absolute;
+	top:35px;
+	left:800px;
+}
+
+#settingsLink {
+	position:absolute;
+	top:35px;
+	right:50px;
+}

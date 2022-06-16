@@ -1,0 +1,47 @@
+body{
+	background-color:#000000;
+	background-attachment:fixed;
+}
+
+.aboutArea{
+	position:absolute;
+	top:20px;
+	left:450px;
+	height:600px;
+	width:500px;
+	background-color:#666666;
+	border-top-right-radius:5px;
+	border-top-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+}
+
+.logo{
+	position:absolute;
+	top:15px;
+	left:10px;
+}
+
+#aboutLbl{
+	position:absolute;
+	top:10px;
+	left:15px;
+}
+
+#GalleryOnIcon {
+	position:absolute;
+	top:45px;
+	left:100px;
+}
+
+#aboutTxt {
+	position:absolute;
+	top:150px;
+	left:15px;
+}
+
+#aboutCprghtDeveloper {
+	position:absolute;
+	top:450px;
+	left:15px;
+}

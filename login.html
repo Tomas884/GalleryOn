@@ -1,0 +1,33 @@
+<html>
+<head>
+    <link href='style/css/styleLogin.css' rel='stylesheet' type='text/css'/>
+    <meta charset="utf-8" />
+    <link rel="icon" href="style/logo/logo.png" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+	
+	<script src='js/js-validation/login-validation.js'></script>
+    
+    <title>GalleryOn: Login</title>
+  </head>
+    <body>
+	    
+		
+	<div class='logo'>
+	     <img border='#' alt='GalleryOnLogo' src='style/logo/GalleryOnLogo.png' width='450' height='150'>
+	</div>
+
+	
+	<div id='loginArea'>
+	  <form action='php-oop/login.php' method='post' name='loginForm' onsubmit='return validateForm()'>
+	     <div id='loginLbl'><label>Login:</label></div>
+	     <input type='text' id='username' name='username' placeholder='Username/Email'></input>
+	     <input type='password' id='password' name='password' placeholder='Password'></input>
+	     <button type='submit' id='loginBtn' name='loginBtn' onClick="validateForm(this.form)">Sign In</button>
+ 	     <a href='pwdRecovery.html' style='text-decoration:none' id='pwdRecoveryLink' name='pwdRecoveryLink'>Forgot Password?</a>
+		 <a href='register.html' style='text-decoration:none' id='registerLink' name='registerLink'>Do not have an Account?</a>
+	  </form>
+	</div>
+	
+	</body>
+</html>

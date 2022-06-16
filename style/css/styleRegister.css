@@ -1,0 +1,100 @@
+body{
+	background-color:#000000;
+	background-attachment:fixed;
+}
+
+#registerArea{
+	position:absolute;
+	height:600px;
+	width:600px;
+	background-color:#990000;
+	left:500px;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+.logo{
+	position:absolute;
+	left:10px;
+	top:15px;
+}
+
+#firstNameTxtFld {
+	position:absolute;
+	left:50px;
+	top:50px;
+}
+
+#secondNameTxtFld {
+	position:absolute;
+	left:220px;
+	top:50px;
+}
+
+#lastNameTxtFld {
+	position:absolute;
+	left:390px;
+	top:50px;
+}
+
+#emailTxtFld {
+	position:absolute;
+	left:50px;
+	top:130px;
+}
+
+#phoneNoTxtFld {
+	position:absolute;
+	left:220px;
+	top:130px;
+}
+
+#usernameTxtFld {
+	position:absolute;
+	left:390px;
+	top:130px;
+}
+
+#pwd {
+	position:absolute;
+	left:50px;
+	top:210px;
+}
+
+#repeatPwd {
+	position:absolute;
+	left:220px;
+	top:210px;
+}
+
+#regTermsAndCondCheckBox {
+	position:absolute;
+	top:280px;
+	left:100px;
+}
+
+#regAgreementLbl {
+	position:absolute;
+	top:280px;
+	left:130px;
+}
+
+#registerBtn {
+	position:absolute;
+	left:250px;
+	top:350px;
+}
+
+#loginLink{
+	position:absolute;
+	left:200px;
+	top:450px;
+}
+
+#registerLbl{
+	position:absolute;
+	top:10px;
+	left:15px;
+}
